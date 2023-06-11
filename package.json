@@ -1,0 +1,14 @@
+{
+  "name": "@alhaqq/hello",
+  "version": "1.0.0",
+  "description": "hello world package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "MejanH",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
