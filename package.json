@@ -1,14 +1,20 @@
 {
-  "name": "@alhaqq/hello",
+  "name": "npm-hello",
   "version": "1.0.0",
-  "description": "hello world package",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "author": "MejanH",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "@mejan/hello": "latest",
     "typescript": "^5.1.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
